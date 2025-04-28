@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloudinary Image Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Cloudinary Image Uploader</h1>
+      <nav>
+        <a href="Index.html">Home</a> | <a href="about.html">about</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="upload-box">
+      <h2>Upload Gambar</h2>
+      <div id="dropZone" class="drop-zone">
+        Drag & Drop gambar di sini atau klik untuk memilih
+      </div>
+      <input type="file" id="fileInput" accept="image/*" hidden />
+      <div id="previewBox" class="preview-box" style="display:none;">
+        <h3>Preview:</h3>
+        <img id="previewImage" src="" alt="Preview Gambar" />
+      </div>
+      <button id="chooseFile">Pilih Gambar</button>
+      <progress id="uploadProgress" value="0" max="100" style="display: none;"></progress>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2>Galeri Gambar</h2>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Gambar akan ditampilkan di sini -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Cloudinary Image Uploader. All Rights Reserved by Group 3.</p>
+      <div class="footer-links">
+        <a href="Index.html">Home</a> |
+        <a href="about.html">about</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>

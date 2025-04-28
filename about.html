@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About & Feedback - Cloudinary Image Uploader</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Cloudinary Image Uploader</h1>
+      <nav>
+        <a href="Index.html">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section class="about-section">
+      <h2>About This App</h2>
+      <p>Cloudinary Image Uploader is an application designed to make uploading images simpler and more efficient. By leveraging the power of cloud technology, users can upload, manage, and showcase their images seamlessly. This app connects to Cloudinary, a robust media management platform that makes storing and manipulating photos easier than ever.</p>
+      
+      <h3>Why Use This App?</h3>
+      <p>The app was developed to provide a seamless experience for uploading images with just a few clicks. Thanks to Cloudinary’s cloud infrastructure, you don’t have to worry about storage limitations or managing complex server-side processes. All images are securely stored and ready to be used at any time.</p>
+      
+      <h3>Features:</h3>
+      <ul>
+        <li>Drag-and-drop image upload functionality</li>
+        <li>Preview images before finalizing the upload</li>
+        <li>Gallery view of all uploaded images</li>
+        <li>Secure cloud-based storage powered by Cloudinary</li>
+      </ul>
+    </section>
+
+    <!-- Feedback Form Section -->
+    <section class="feedback-section" id="feedback">
+      <h2>Feedback & Suggestions</h2>
+      <form id="feedbackForm">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Share your thoughts here..." required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Submit Feedback</button>
+        <p id="feedbackSuccess" class="success-msg" style="display:none;">Thank you for your feedback!</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Cloudinary Image Uploader. All Rights Reserved by Group 3.</p>
+      <div class="footer-links">
+        <a href="Index.html">Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script2.js"></script>
+</body>
+</html>
