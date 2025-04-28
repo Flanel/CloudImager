@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
       e.preventDefault();
       dropZone.style.backgroundColor = '#e9f7fd';
     });
+
+    dropZone.addEventListener('click', function() {
+      fileInput.click();
+    });
   
     dropZone.addEventListener('dragleave', function() {
       dropZone.style.backgroundColor = 'transparent';
